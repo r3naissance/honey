@@ -1,7 +1,17 @@
 # honey
 Incredibly lightweight honeypot for anomalous traffic
-###
+### 
 ![Run](https://github.com/r3naissance/honey/blob/main/img/run.gif)
+## TL;DR
+### Benefits
+- Less than 120 lines of code
+- Analyze traffic behavior
+- Alert to network mapping (IDS supplement)
+- JSON output for easy consumption/push
+- Connection is dropped immediately after data is logged
+- OS agnostic
+### TODO
+- UDP support
 ## Installation
 ### Build from source
 ```
@@ -9,7 +19,6 @@ git clone https://github.com/r3naissance/honey
 cd honey
 go build .
 ```
-![Install](https://github.com/r3naissance/honey/blob/main/img/install.gif)
 ### Install it
 ```
 go install github.com/r3naissance/honey@latest
